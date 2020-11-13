@@ -23,7 +23,7 @@ function ListsScreen ({navigation}) {
                         <ListItem
                             userName={item.user.name}
                             description={item.alt_description}
-                            urlPhoto={{uri: item.urls.small}}
+                            urlPhoto={{uri: item.urls.regular}}
                             navigation={navigation}
                         ></ListItem>
                 )}

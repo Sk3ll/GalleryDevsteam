@@ -10,7 +10,12 @@ function PhotoScreen ({route}) {
         <>
         <View style={{backgroundColor: 'black', height: Dimensions.get('window').height}}>
             <Image
-                style={{width: imageWidth, height: imageHeight, alignItems: 'center', marginTop: 60}}
+                style={{
+                    width: imageWidth,
+                    height: imageHeight,
+                    alignItems:'center',
+                    marginTop: 80,
+                }}
                 source={currentPhoto}
             ></Image>
         </View>
